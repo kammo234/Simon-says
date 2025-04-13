@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simon Says Game</title>
+  <link rel="stylesheet" href="simon.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 id="level-title">Press Any Key to Start</h1>
+    <h3 id="score">Score: 0</h3>
+    
+    <div class="controls">
+      <button id="theme-toggle">Toggle Theme</button>
+      <button id="download-btn">Download Game</button>
+    </div>
+    
+    </div><div class="button-grid">
+        <div class="btn red" id="red">🍎</div>
+        <div class="btn blue" id="blue">🧊</div>
+        <div class="btn green" id="green">🐸</div>
+        <div class="btn yellow" id="yellow">🌟</div>
+        <div class="btn purple" id="purple">🍇</div>
+        <div class="btn orange" id="orange">🦊</div>
+        <div class="btn pink" id="pink">🌸</div>
+        <div class="btn cyan" id="cyan">🧠</div>
+      </div>
+
+      <div id="leaderboard">
+        <h3>Top Scores</h3>
+        <ol id="score-list"></ol>
+      
+  </div>
+
+  <audio id="wrong-sound" src="https://www.soundjay.com/button/sounds/button-10.mp3"></audio>
+  <script src="simon.js"></script>
+</body>
+</html>
